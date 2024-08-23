@@ -1,0 +1,13 @@
+{
+  "name": "fareka/php-mvc",
+  "autoload": {
+    "psr-4": {
+      "Fareka\\PhpMvc\\": "src/"
+    },
+    "App\\": "App"
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "symfony/var-dumper": "^7.1"
+  }
+}
